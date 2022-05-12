@@ -137,3 +137,35 @@ header nav {
 }
 /* END HEADER */
 
+/* INTRO */
+.intro {
+	background-color: var(--dark-violet);
+	color: var(--very-light-gray);
+	position: relative;
+}
+.intro .copy {
+	padding: 6rem 1.6rem;
+	text-align: center;
+
+	background-image: url("./../images/bg-pattern-intro-left-mobile.svg");
+	background-repeat: no-repeat;
+}
+.intro h2 {
+	margin-bottom: 1rem;
+	color: var(--very-light-gray);
+}
+.intro p {
+	font-size: 1rem;
+	line-height: 2rem;
+	margin-bottom: 2.5rem;
+}
+#intro-right-bg-pattern {
+	position: absolute;
+	right: 0;
+	bottom: -11rem;
+	width: 8rem;
+}
+#intro-left-bg-pattern {
+	display: none;
+}
+/* END INTRO */
