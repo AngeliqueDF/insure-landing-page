@@ -90,3 +90,50 @@ h3 {
 	font-size: 1.7rem;
 }
 
+/* HEADER */
+header nav.mobile-menu-open .nav-links {
+	position: absolute !important;
+	top: 4.3rem;
+	left: 0;
+	right: 0;
+	z-index: 2;
+
+	display: flex;
+	flex-direction: column;
+
+	background-color: var(--very-dark-violet);
+	color: var(--very-light-gray);
+	height: 100vh;
+	padding: 3rem 1rem;
+
+	font-size: 1.3rem;
+	text-align: center;
+}
+header nav.mobile-menu-open .nav-links > a {
+	margin-bottom: 3rem;
+}
+header nav.mobile-menu-open .mobile-menu-toggle {
+	background-image: url("./../images/icon-close.svg");
+}
+header .nav-links {
+	display: none;
+}
+header {
+	padding: 1rem;
+}
+header .mobile-menu-toggle {
+	background-image: url("./../images/icon-hamburger.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 1rem;
+	width: 1rem;
+	border: 1px solid var(--dark-violet);
+	padding: 1rem;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+}
+/* END HEADER */
+
