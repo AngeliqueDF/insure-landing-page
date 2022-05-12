@@ -63,3 +63,10 @@ header {
 	text-transform: uppercase;
 }
 /* END UTILITY */
+
+body {
+	background-color: var(--very-light-gray);
+	color: var(--dark-grayish-violet);
+	font-family: "Karla";
+}
+
