@@ -224,3 +224,68 @@ header nav {
 	font-size: 2.2rem;
 }
 /* END CTA SECTION */
+
+/* FOOTER */
+footer nav {
+	background-image: url("./../images/bg-pattern-footer-mobile.svg");
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 4.5rem 0 1rem;
+	position: relative;
+	margin-bottom: 6rem;
+}
+footer nav::after {
+	content: "";
+	display: block;
+	height: 1px;
+	background-color: var(--dark-grayish-violet);
+	width: 90%;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -2rem;
+}
+footer nav > a img {
+	width: 33%;
+	margin-block-end: 1.9rem;
+}
+footer nav ul {
+	display: flex;
+	justify-content: center;
+}
+footer nav ul li {
+	margin-right: 1rem;
+}
+footer nav ul li img {
+	width: 2rem;
+}
+/* FOOTER FIRST NAV */
+
+/* END FOOTER FIRST NAV */
+
+/* FOOTER SITEMAP */
+footer > ul {
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+footer > ul li:first-child {
+	margin-block-start: 2rem;
+}
+footer > ul li {
+	margin-bottom: 1rem;
+}
+footer > ul li a {
+	color: var(--dark-violet);
+}
+/* END FOOTER SITEMAP */
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+/* END FOOTER */
