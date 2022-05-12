@@ -38,3 +38,28 @@ a {
 }
 /* END CUSTOM RESETS */
 
+/* UTILITY */
+/* make images responsive */
+img {
+	width: 100%;
+	height: auto;
+}
+.cta-btn-purple,
+.cta-btn-white {
+	padding: 0.4rem 1.7rem;
+	text-transform: uppercase;
+}
+.cta-btn-white {
+	color: white;
+	border: 1px solid white;
+}
+.cta-btn-purple {
+	color: var(--dark-violet);
+	border: 1px solid var(--dark-violet);
+}
+
+footer,
+header {
+	text-transform: uppercase;
+}
+/* END UTILITY */
