@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "DM Serif Display";
+	src: url("./../fonts/DM\ Serif\ Display/DMSerifDisplay-Regular.ttf");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Karla";
+	src: url("./../fonts/Karla/Karla-Regular.ttf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Karla";
+	src: url("./../fonts/Karla/Karla-Bold.ttf");
+	font-weight: 700;
+}
+
+:root {
+	/* PRIMARY COLORS */
+	--dark-violet: hsl(256, 26%, 20%);
+	--grayish-blue: hsl(216, 30%, 68%);
+
+	/* NEUTRAL COLORS */
+	--very-dark-violet: hsl(270, 9%, 17%);
+	--dark-grayish-violet: hsl(273, 4%, 51%);
+	--very-light-gray: hsl(0, 0%, 98%);
+}
