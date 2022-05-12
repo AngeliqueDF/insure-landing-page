@@ -26,3 +26,15 @@
 	--dark-grayish-violet: hsl(273, 4%, 51%);
 	--very-light-gray: hsl(0, 0%, 98%);
 }
+
+/* CUSTOM RESETS */
+button {
+	border: unset;
+}
+
+a {
+	text-decoration: none;
+	color: unset;
+}
+/* END CUSTOM RESETS */
+
