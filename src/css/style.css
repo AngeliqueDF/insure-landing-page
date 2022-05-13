@@ -388,4 +388,27 @@ footer div ul li a {
 	}
 	/* END INTRO SECTION */
 
+	/* FEATURES SECTION*/
+	.features {
+		text-align: unset;
+		padding: 16% 8rem 1rem;
+		margin-bottom: 6rem;
+	}
+	.features div article,
+	.features h2::before {
+		margin: unset;
+	}
+	.features h2::before {
+		margin-bottom: 3rem;
+		width: 7%;
+	}
+	.features div {
+		display: flex;
+		justify-content: space-between;
+	}
+	.features div article {
+		width: 31%;
+		margin-right: 1rem;
+	}
+	/* END FEATURES SECTION*/
 }
