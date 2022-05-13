@@ -434,4 +434,32 @@ footer div ul li a {
 	}
 	/* END CTA SECTION */
 
+	/* FOOTER */
+	footer {
+		padding: 0rem 8rem;
+		background-image: url("./../images/bg-pattern-footer-desktop.svg");
+		background-repeat: no-repeat;
+		background-position: top left;
+	}
+	footer nav {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 3rem;
+		background: unset;
+	}
+	footer nav::after {
+		width: 100%;
+		bottom: 0.4rem;
+	}
+	footer nav > a img {
+		width: 100%;
+	}
+	.sitemap {
+		display: flex;
+	}
+	footer div ul {
+		text-align: unset;
+		margin-right: 16%;
+	}
+	/* END FOOTER */
 }
