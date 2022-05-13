@@ -226,6 +226,9 @@ header nav {
 /* END CTA SECTION */
 
 /* FOOTER */
+footer {
+	background-color: var(--very-light-gray);
+}
 footer nav {
 	background-image: url("./../images/bg-pattern-footer-mobile.svg");
 	background-repeat: no-repeat;
@@ -265,18 +268,18 @@ footer nav ul li img {
 /* END FOOTER FIRST NAV */
 
 /* FOOTER SITEMAP */
-footer > ul {
+footer div ul {
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 2rem;
 }
-footer > ul li:first-child {
+footer div ul li:first-child {
 	margin-block-start: 2rem;
 }
-footer > ul li {
+footer div ul li {
 	margin-bottom: 1rem;
 }
-footer > ul li a {
+footer div ul li a {
 	color: var(--dark-violet);
 }
 /* END FOOTER SITEMAP */
