@@ -411,4 +411,27 @@ footer div ul li a {
 		margin-right: 1rem;
 	}
 	/* END FEATURES SECTION*/
+
+	/* CTA SECTION */
+	.cta-section {
+		text-align: unset;
+		padding: 0 8rem 8rem;
+	}
+	.cta-section .copy {
+		width: unset;
+		padding: 5rem 5rem;
+		background-size: auto 100%;
+		background-image: url("./../images/bg-pattern-how-we-work-desktop.svg");
+		background-position: 45.5rem top;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.cta-section h3 {
+		font-size: 3.8rem;
+		width: 52%;
+		margin: unset;
+	}
+	/* END CTA SECTION */
+
 }
