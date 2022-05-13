@@ -46,7 +46,7 @@ img {
 }
 .cta-btn-purple,
 .cta-btn-white {
-	padding: 0.4rem 1.7rem;
+	padding: 0.7rem 1.5rem;
 	text-transform: uppercase;
 }
 .cta-btn-white {
@@ -65,7 +65,6 @@ header {
 /* END UTILITY */
 
 body {
-	background-color: var(--very-light-gray);
 	color: var(--dark-grayish-violet);
 	font-family: "Karla";
 }
@@ -141,7 +140,6 @@ header nav {
 .intro {
 	background-color: var(--dark-violet);
 	color: var(--very-light-gray);
-	position: relative;
 }
 .intro .copy {
 	padding: 6rem 1.6rem;
@@ -159,13 +157,15 @@ header nav {
 	line-height: 2rem;
 	margin-bottom: 2.5rem;
 }
-#intro-right-bg-pattern {
+#bg-pattern-intro-right-mobile {
 	position: absolute;
 	right: 0;
-	bottom: -11rem;
+	bottom: -27.5rem;
 	width: 8rem;
 }
-#intro-left-bg-pattern {
+
+#bg-pattern-intro-left-desktop,
+#bg-pattern-intro-right-desktop {
 	display: none;
 }
 /* END INTRO */
@@ -226,6 +226,9 @@ header nav {
 /* END CTA SECTION */
 
 /* FOOTER */
+footer {
+	background-color: var(--very-light-gray);
+}
 footer nav {
 	background-image: url("./../images/bg-pattern-footer-mobile.svg");
 	background-repeat: no-repeat;
@@ -265,18 +268,18 @@ footer nav ul li img {
 /* END FOOTER FIRST NAV */
 
 /* FOOTER SITEMAP */
-footer > ul {
+footer div ul {
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 2rem;
 }
-footer > ul li:first-child {
+footer div ul li:first-child {
 	margin-block-start: 2rem;
 }
-footer > ul li {
+footer div ul li {
 	margin-bottom: 1rem;
 }
-footer > ul li a {
+footer div ul li a {
 	color: var(--dark-violet);
 }
 /* END FOOTER SITEMAP */
@@ -289,3 +292,174 @@ footer > ul li a {
 	color: hsl(228, 45%, 44%);
 }
 /* END FOOTER */
+
+@media screen and (min-width: 1440px) {
+	body {
+		padding-top: 4.9rem;
+	}
+	/* HEADER */
+	/* Hide element that should not be displayed on desktop */
+	.mobile-menu-toggle {
+		display: none;
+	}
+	header {
+		padding: 1.2rem 8rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		background-color: white;
+		z-index: 3;
+		height: fit-content;
+	}
+	header h1 {
+		height: fit-content;
+		font-size: unset;
+	}
+	header > nav {
+		align-items: center;
+	}
+	header .nav-links {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 40%;
+	}
+	/* The CTA button in the header has a different appearance on desktop */
+	header .nav-links .cta-btn-white {
+		color: var(--dark-violet);
+		border-color: var(--dark-violet);
+	}
+	/* END HEADER */
+
+	/* INTRO SECTION */
+	#intro-right-bg-pattern,
+	#bg-pattern-intro-right-mobile {
+		display: none;
+	}
+	#intro-image,
+	#bg-pattern-intro-right-desktop,
+	#bg-pattern-intro-left-desktop {
+		display: block;
+		position: absolute;
+	}
+	#bg-pattern-intro-right-desktop {
+		width: 25%;
+		top: -5rem;
+		right: 0;
+		z-index: 1;
+	}
+	#bg-pattern-intro-left-desktop {
+		width: 11%;
+		left: 0;
+		bottom: -17rem;
+	}
+	.intro {
+		position: relative;
+		padding: 5rem 8rem 9rem;
+	}
+
+	#intro-image {
+		top: 5rem;
+		right: 8rem;
+		width: 40%;
+	}
+
+	.intro .copy {
+		/* remove rules added for mobile view */
+		background-image: unset;
+		text-align: unset;
+		padding: unset;
+		width: 50%;
+		width: 47.5%;
+	}
+
+	.intro h2 {
+		font-size: 5rem;
+	}
+
+	.intro h2::before {
+		content: "";
+		display: block;
+		height: 1px;
+		width: 30%;
+		margin-bottom: 3rem;
+		background-color: var(--very-light-gray);
+	}
+	/* END INTRO SECTION */
+
+	/* FEATURES SECTION*/
+	.features {
+		text-align: unset;
+		padding: 16% 8rem 1rem;
+		margin-bottom: 6rem;
+	}
+	.features div article,
+	.features h2::before {
+		margin: unset;
+	}
+	.features h2::before {
+		margin-bottom: 3rem;
+		width: 7%;
+	}
+	.features div {
+		display: flex;
+		justify-content: space-between;
+	}
+	.features div article {
+		width: 31%;
+		margin-right: 1rem;
+	}
+	/* END FEATURES SECTION*/
+
+	/* CTA SECTION */
+	.cta-section {
+		text-align: unset;
+		padding: 0 8rem 8rem;
+	}
+	.cta-section .copy {
+		width: unset;
+		padding: 5rem 5rem;
+		background-size: auto 100%;
+		background-image: url("./../images/bg-pattern-how-we-work-desktop.svg");
+		background-position: 45.5rem top;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.cta-section h3 {
+		font-size: 3.8rem;
+		width: 52%;
+		margin: unset;
+	}
+	/* END CTA SECTION */
+
+	/* FOOTER */
+	footer {
+		padding: 0rem 8rem;
+		background-image: url("./../images/bg-pattern-footer-desktop.svg");
+		background-repeat: no-repeat;
+		background-position: top left;
+	}
+	footer nav {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 3rem;
+		background: unset;
+	}
+	footer nav::after {
+		width: 100%;
+		bottom: 0.4rem;
+	}
+	footer nav > a img {
+		width: 100%;
+	}
+	.sitemap {
+		display: flex;
+	}
+	footer div ul {
+		text-align: unset;
+		margin-right: 16%;
+	}
+	/* END FOOTER */
+}
