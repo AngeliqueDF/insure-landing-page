@@ -297,4 +297,38 @@ footer div ul li a {
 	body {
 		padding-top: 4.9rem;
 	}
+	/* HEADER */
+	/* Hide element that should not be displayed on desktop */
+	.mobile-menu-toggle {
+		display: none;
+	}
+	header {
+		padding: 1.2rem 8rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		background-color: white;
+		z-index: 3;
+		height: fit-content;
+	}
+	header h1 {
+		height: fit-content;
+		font-size: unset;
+	}
+	header > nav {
+		align-items: center;
+	}
+	header .nav-links {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 40%;
+	}
+	/* The CTA button in the header has a different appearance on desktop */
+	header .nav-links .cta-btn-white {
+		color: var(--dark-violet);
+		border-color: var(--dark-violet);
+	}
+	/* END HEADER */
 }
