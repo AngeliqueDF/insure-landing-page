@@ -488,3 +488,13 @@ footer div ul li a:active {
 	}
 	/* END FOOTER */
 }
+/* HOVER COMPATIBLE DEVICES */
+@media (any-hover: hover) {
+	a:hover {
+		cursor: pointer;
+	}
+	.nav-links a:active {
+		color: var(--dark-violet);
+	}
+}
+/* END HOVER COMPATIBLE DEVICES */
