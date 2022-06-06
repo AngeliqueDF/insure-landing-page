@@ -498,3 +498,11 @@ footer div ul li a:active {
 	}
 }
 /* END HOVER COMPATIBLE DEVICES */
+
+/* TOUCH SCREENS */
+@media (hover: none) {
+	a:active {
+		color: var(--dark-violet);
+	}
+}
+/* END TOUCH SCREENS */
