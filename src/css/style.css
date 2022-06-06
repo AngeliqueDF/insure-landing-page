@@ -36,11 +36,6 @@ a {
 	text-decoration: none;
 	color: unset;
 }
-a:active,
-a:hover {
-	cursor: pointer;
-	color: var(--dark-violet);
-}
 /* END CUSTOM RESETS */
 
 /* UTILITY */
