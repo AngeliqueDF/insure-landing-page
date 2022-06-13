@@ -1,23 +1,25 @@
 # Insure landing page
 
+![Under Development](https://img.shields.io/badge/under-development-orange.svg)
+
 ![Screenshot of the the Insure landing page on desktop.](./src/images/insure-landing-page-desktop-screenshot.png)
 
 <div align="center">
-  <img src="./logo-reactjs.svg">
+  <img src="./src/images/logo-html5.svg" width="48px" />
+  <img src="./src/images/logo-css3.svg" width="48px" />
+  <img src="./src/images/logo-vitejs.svg" width="48px" />
 </div>
 
 ## Overview
 
-_A landing page for an insurance service._
-
-<hr />
+_An accessible and responsive landing page for an insurance service._
 
 <br />
 
 ## Links
 
 <p>
-<a href="https://github.com/AngeliqueDF/insure-landing-page">GitHub repo</a> • <a href="/.github/CONTRIBUTING.md">Live demo </a> • <a href="/.github/PULL_REQUEST_TEMPLATE.md">Project board</a>
+<a href="https://github.com/AngeliqueDF/insure-landing-page">GitHub repo</a> • <a href="/.github/CONTRIBUTING.md">Live demo </a>
 </p>
 
 <br />
