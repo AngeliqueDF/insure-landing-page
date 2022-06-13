@@ -19,7 +19,7 @@ _An accessible and responsive landing page for an insurance service._
 ## Links
 
 <p>
-<a href="https://github.com/AngeliqueDF/insure-landing-page">GitHub repo</a> • <a href="/.github/CONTRIBUTING.md">Live demo </a>
+<a href="https://github.com/AngeliqueDF/insure-landing-page">GitHub repo</a> • <a href="https://cool-jelly-63ab4d.netlify.app/">Live demo</a>
 </p>
 
 <br />
