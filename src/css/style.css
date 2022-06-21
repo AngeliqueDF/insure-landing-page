@@ -2,18 +2,21 @@
 	font-family: "DM Serif Display";
 	src: url("./../fonts/DM\ Serif\ Display/DMSerifDisplay-Regular.ttf");
 	font-weight: 700;
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "Karla";
 	src: url("./../fonts/Karla/Karla-Regular.ttf");
 	font-weight: 400;
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "Karla";
 	src: url("./../fonts/Karla/Karla-Bold.ttf");
 	font-weight: 700;
+	font-display: swap;
 }
 
 :root {
@@ -488,3 +491,21 @@ footer div ul li a:active {
 	}
 	/* END FOOTER */
 }
+/* HOVER COMPATIBLE DEVICES */
+@media (any-hover: hover) {
+	a:hover {
+		cursor: pointer;
+	}
+	.nav-links a:active {
+		color: var(--dark-violet);
+	}
+}
+/* END HOVER COMPATIBLE DEVICES */
+
+/* TOUCH SCREENS */
+@media (hover: none) {
+	a:active {
+		color: var(--dark-violet);
+	}
+}
+/* END TOUCH SCREENS */
