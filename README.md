@@ -1,7 +1,5 @@
 # Insure landing page
 
-![Under Development](https://img.shields.io/badge/under-development-orange.svg)
-
 ![Screenshot of the the Insure landing page on desktop.](./src/images/insure-landing-page-desktop-screenshot.png)
 
 <div align="center">
@@ -94,8 +92,6 @@ The JavaScript toggles the `.mobile-menu-open` class on mobile.
 
 - [ ] Improve accessibility.
 - [ ] Improve SEO.
-
-[See the advancement of the project here. PRs welcome!]()
 
 ## Sources
 
